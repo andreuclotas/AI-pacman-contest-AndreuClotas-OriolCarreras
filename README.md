@@ -1,1 +1,0 @@
-# AI-pacman-contest-AndreuClotas-OriolCarreras
