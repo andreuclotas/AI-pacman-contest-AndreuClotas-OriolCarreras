@@ -466,9 +466,9 @@ class DefensiveAgent(BaseCaptureAgent):
         
         positions = []
         if self.team == 'red':
-            x_range = range((width // 2) - 3, (width // 2))
+            x_range = range((width // 2), (width // 2))
         else:
-            x_range = range((width // 2) + 1, (width // 2) + 4)
+            x_range = range((width // 2) + 1, (width // 2) + 1)
             
         for x in x_range:
             for y in range(1, height - 1):
